@@ -1,0 +1,238 @@
+    .cont {
+        width: 45%;
+        height: 94%;
+        display: flex;
+        justify-content: space-between;
+        padding: 55px 27.5% 0% 27.5%;
+    }
+    
+    .cont .foup {
+        width: 100%;
+        background: white;
+    }
+    
+    .cont .foup h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+        color: #ef9d87;
+    }
+    
+    .cont .foup .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cont .foup .image img {
+        width: 100%;
+    }
+    
+    .cont .foup .image .imagePub {
+        width: 100%;
+    }
+    
+    .loca {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 0px;
+    }
+    
+    .locadescription {
+        width: 95%;
+        height: 70%;
+        justify-content: center;
+        align-items: center;
+        margin: 1% 2.5% 0px;
+        border: 1px solid#ef9d87;
+    }
+    
+    .fil {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4% 2.5%;
+    }
+    
+    .location {
+        width: 85%;
+        height: 30px;
+        outline: none;
+        border: none;
+    }
+    
+    .description {
+        width: 95%;
+        height: 50px;
+        padding: 2.5%;
+        margin: 0 2.5%;
+        outline: none;
+        border-bottom: 1px solid#a5a5a5;
+        border-top: white;
+        border-left: white;
+        border-right: white;
+    }
+    
+    .imap {
+        margin-left: 9%;
+        color: rgb(112, 110, 110);
+    }
+    
+    .inputlocation {
+        margin: 5% 2.5% 0% 2.5%;
+        border-bottom: 1px solid #a5a5a5;
+        border-top: white;
+        border-left: white;
+        border-right: white;
+        width: 35%;
+    }
+    
+    .col-md {
+        background-color: white;
+        width: 35%;
+        margin: 0% 2.5% 5% 2.5%;
+    }
+    
+    .list-group {
+        border-bottom: 1px solid green;
+        border-top: white;
+        border-left: white;
+        border-right: white;
+        width: 80%;
+        margin: 2.5% 15%;
+    }
+    
+    .list-group-item {
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+    }
+    
+    .green {
+        color: green;
+    }
+    
+    .red {
+        color: red;
+    }
+    
+    .contuploadstory {
+        width: 80%;
+        margin: 10%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ef9d87;
+    }
+    
+    .iupload {
+        color: #ef9d87;
+        margin-right: 10px;
+    }
+    
+    .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        z-index: -1;
+    }
+    
+    .labelforfile {
+        margin: 0 10%;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .iimage {
+        color: #ef9d87;
+        margin: 0 10px 0 0;
+    }
+    
+    .inputfile+label {
+        cursor: pointer;
+    }
+    
+    .conttake {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+    
+    .takephoto {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .itake {
+        font-size: 40px;
+        color: grey;
+    }
+    
+    .sendbtn {
+        color: black;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 10px 2.5% 0 0;
+        padding: 20px 20px;
+        border: none;
+    }
+    
+    input:focus {
+        border-bottom: 1px solid#ef9d87;
+        border-top: white;
+        border-left: white;
+        border-right: white;
+    }
+    
+    .update {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0px;
+    }
+    
+    .iclose {
+        color: #ef9d87;
+        font-size: 20px;
+    }
+    
+    .update input {
+        background-color: white;
+        border: 1px solid#ef9d87;
+        padding: 10px 25px;
+        cursor: pointer;
+    }
+    
+    .update input:hover {
+        box-shadow: 0 0 25px #ef9d87;
+        background-color: #ef9d87;
+        color: white;
+    }
+    
+    .del {
+        color: black;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 10px 0 0 2.5%;
+        padding: 20px 22.5px;
+    }
+    
+    .sendbtn:hover,
+    .del:hover {
+        border: 1px solid #ef9d87;
+    }

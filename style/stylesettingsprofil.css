@@ -1,0 +1,102 @@
+.contsettingsuser {
+    width: 100%;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.labelforfile {
+    margin: 0% 10%;
+    text-decoration: none;
+    color: black;
+    padding: 10% 0%;
+}
+
+.contimage {
+    width: 100%;
+    padding: 10% 0%;
+}
+
+.contlocation,
+.contfullname,
+.contbio,
+.contactivity,
+.contfavoritetag,
+.contpassword {
+    width: 80%;
+    margin: 10%;
+    display: flex;
+}
+
+.location {
+    width: 100%;
+    border-bottom: 2px solid #f5f5f5;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    outline: none;
+}
+
+.col-md {
+    background-color: white;
+    width: 60%;
+    margin: 0% 2.5% 5% 2.5%;
+}
+
+.fullname,
+.bio,
+.activity,
+.favoritetag,
+.password {
+    width: 100%;
+    border-bottom: 2px solid #f5f5f5;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    outline: none;
+    padding: 10px 15px;
+}
+
+input:focus {
+    border-bottom: 1px solid#ef9d87;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
+input:hover {
+    border-bottom: 1px solid#ef9d87;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
+.iimage {
+    color: #ef9d87;
+    margin-right: 15px;
+}
+
+.inputfile+label {
+    cursor: pointer;
+}
+
+.list-group {
+    border-bottom: 1px solid green;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    width: 100%;
+    margin: 2.5% 15%;
+}
+
+.list-group-item {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    width: 100%;
+}

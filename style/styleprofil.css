@@ -1,0 +1,119 @@
+.cont {
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20% 0% 20%;
+}
+
+.cont .left {
+    width: 22%;
+    padding: 3% 4% 3% 3%;
+    background-color: white;
+    margin-right: 2px;
+}
+
+.cont .left .image {
+    width: 100%;
+    height: 260px;
+}
+
+.cont .left .image .improfil {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cont .left h2 {
+    font-size: 18px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont .left .folo {
+    padding-top: 10px;
+    display: flex;
+}
+
+.cont .left .folo .fol {
+    margin-right: 25px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont .left .para {
+    padding: 30px 0px;
+}
+
+.par {
+    color: #A5A5A5;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 14.5pt;
+}
+
+.line {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid;
+    border-color: #f0eeee;
+    width: 11%;
+}
+
+.more {
+    padding-top: 25px;
+}
+
+.more .mor {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    color: #ef9d87;
+}
+
+.cont .right {
+    padding: 4% 4% 4% 6%;
+    width: 64%;
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .headstory {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ef9d87;
+    padding-top: 5px;
+}
+
+.stories {
+    padding: 40px 0px;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.story {
+    width: 110px;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.contphoto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}

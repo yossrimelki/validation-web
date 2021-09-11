@@ -1,0 +1,374 @@
+.space {
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+    position: fixed;
+}
+
+.cont {
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20% 0% 20%;
+}
+
+
+/*cont right the right side story and post*/
+
+.cont .right {
+    width: 80%;
+    background-color: white;
+    margin-left: 27.8%;
+}
+
+.cont .right .stories {
+    width: 37.8%;
+    height: 230px;
+    background-color: white;
+    padding: 2% 2% 0% 2%;
+    outline: none;
+    position: fixed;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .headstory {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ef9d87;
+    padding-top: 5px;
+}
+
+.contstories {
+    padding: 18px 0px;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    outline: none;
+}
+
+.story {
+    width: 85px;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.article {
+    width: 90%;
+    padding: 4%;
+    margin-top: 280px;
+}
+
+article .image .imagePub {
+    width: 100%;
+    padding: 40px 0px;
+}
+
+article .profilUser {
+    width: 100%;
+}
+
+article .profilUser .imageprofil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+article .profilUser .imageprofil .imgUser {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+article .profilUser .nameUser {
+    text-decoration: none;
+    color: black;
+    font-family: oswald;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postHeader .nameLocation {
+    text-decoration: none;
+    color: #ef9d87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 0px 0px 20px;
+}
+
+article .postEntry {
+    margin: 0px 0px 10px;
+    padding: 0px 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+article .postEntry .description {
+    margin: 0px 0px 20px;
+    font-size: 16px;
+    font-family: serif;
+}
+
+article .postEntry .readm {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article .postEntry .readmore {
+    color: #ef9d87;
+    padding: 16px 25px 16px;
+    margin: 12px 0px 0px;
+    font-size: 11px;
+    font-family: sans-serif;
+    border: 1px solid #e9e9e9;
+    letter-spacing: 1px;
+}
+
+.readmore:hover {
+    background: #e9e9e9;
+}
+
+.postMeta {
+    padding: 0px 30px 30px;
+    height: 28px;
+}
+
+.postMeta .metaInfo {
+    color: #A5A5A5;
+    margin: 6px 8px 0px 0px;
+    font-family: serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.like {
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.postMeta .metaInfor {
+    color: #A5A5A5;
+    margin: 6px 8px 0px 0px;
+    font-family: serif;
+    font-size: 14px;
+    font-style: italic;
+    float: right;
+}
+
+.postMeta .metaShare {
+    float: right;
+    display: flex;
+}
+
+.postMeta .metaop {
+    float: left;
+    display: flex;
+}
+
+.a-share {
+    width: 22px;
+    height: 22px;
+    background: white;
+    border: 1px solid #ececec;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 0px 0px 0px 3px;
+}
+
+.a-share .sharefacebook {
+    width: 7px;
+    padding: 3.5px 0px 0px 7px;
+    color: #ef9d87;
+}
+
+.a-share .sharetwitter {
+    width: 12px;
+    padding: 3.5px 0px 0px 5px;
+    color: #ef9d87;
+}
+
+.contline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    content: "";
+    color: #f5f5f5;
+    border-bottom: 2px solid;
+    margin: 14px 0px;
+    width: 100%;
+    display: flex;
+}
+
+
+/*left side of container profil and settings*/
+
+.cont .left {
+    width: 12%;
+    background-color: white;
+    padding: 2%;
+    margin-right: 2px;
+    position: fixed;
+}
+
+.contimageuser {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contimgprofil {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid #ef9d87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imguser {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.contnameuser {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameuser {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.locationuser {
+    text-decoration: none;
+    color: #A5A5A5;
+    padding-top: 5px;
+}
+
+.contfolo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fol {
+    text-decoration: none;
+    color: #A5A5A5;
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+.contlinelefttop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.contlineleftbottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.par {
+    color: #A5A5A5;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 14.5pt;
+}
+
+.more {
+    padding-top: 25px;
+}
+
+.more .mor {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    color: #ef9d87;
+}
+
+.feed {
+    text-decoration: none;
+    color: #777777;
+}
+
+li {
+    list-style: none;
+    padding-left: 7%;
+}
+
+.contphoto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contsetting {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.setting {
+    width: 70px;
+    height: 40px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.st {
+    color: #A5A5A5;
+}
+
+.contlinestory {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,67 @@
+.cont {
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20% 0% 20%;
+}
+
+.cont .left {
+    width: 70%;
+    margin-right: 2%;
+    height: 500px;
+}
+
+.cont .right {
+    width: 28%;
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.contnotif {
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imnotifuser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.personnotif {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 9px 5px;
+}
+
+.descnotif {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 11px 0px;
+    margin-right: 5px;
+    color: grey;
+}
+
+.imnotifpost {
+    height: 35px;
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soustitle {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4%;
+    color: grey;
+}
